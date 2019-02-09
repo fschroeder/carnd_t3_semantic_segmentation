@@ -170,7 +170,6 @@ def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_l
                         keep_prob: 0.5,
                         learning_rate: 2e-5 })
             print("{};{:.3}".format((epoch + 1),loss))
-
 tests.test_train_nn(train_nn)
 
 
